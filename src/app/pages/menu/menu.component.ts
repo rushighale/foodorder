@@ -10,6 +10,7 @@ export class MenuComponent implements OnInit {
 
   constructor(private service:OrderDetailsService) { }
 
+  
   foodData:any;
 
   ngOnInit(): void {
